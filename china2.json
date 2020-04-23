@@ -1,0 +1,31 @@
+{
+    "name": "Little-Snitch Rules",
+    "description": "Block china service.",
+    "rules": [
+        {
+            "action": "deny",
+            "process": "any",
+            "remote-domains": "sogou.com"
+        },
+        {
+            "action": "deny",
+            "process": "any",
+            "remote-domains": "baidu.com"
+        },
+        {
+            "action": "deny",
+            "process": "any",
+            "remote-domains": "cnzz.com"
+        },
+        {
+            "action": "deny",
+            "process": "any",
+            "remote-domains": "cnnic.com"
+        },
+        {
+            "action": "deny",
+            "process": "any",
+            "remote-domains": "xuexi.cn"
+        }
+    ]
+}
